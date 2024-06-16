@@ -1,0 +1,316 @@
+/* .slider_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .Quality {
+    color: #ef9e48;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    font: 700 14px/286% DM Sans, sans-serif;
+  }
+  .Tutorials {
+    color: #0f2137;
+    text-align: center;
+    letter-spacing: -1.5px;
+    margin-top: 22px;
+    font: 700 36px/153% DM Sans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .Tutorials {
+      max-width: 100%;
+    }
+  }
+  .div_4 {
+    align-self: stretch;
+    margin-top: 67px;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .div_4 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div_5 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div_5 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-6 {
+    border-radius: 10px;
+    border-color: rgba(243, 244, 245, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 33px;
+    flex-direction: column;
+    font-weight: 400;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      max-width: 100%;
+      margin-top: 30px;
+    }
+  }
+  .img {
+    aspect-ratio: 1.72;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .img {
+      max-width: 100%;
+    }
+  }
+  .div-7 {
+    display: flex;
+    margin-top: 23px;
+    flex-direction: column;
+    padding: 0 33px;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-8 {
+    display: flex;
+    gap: 10px;
+    line-height: 200%;
+  }
+  .div-9 {
+    color: #ffce1f;
+    letter-spacing: 4.8px;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 16px Font Awesome 5 Free, sans-serif;
+  }
+  .div-10 {
+    color: #0f2137;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 15px Heebo, sans-serif;
+  }
+  .div-11 {
+    color: #0f2137;
+    margin-top: 22px;
+    font: 700 20px/30px DM Sans, sans-serif;
+  }
+  .div-12 {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    font-size: 16px;
+    color: #343d48;
+    line-height: 162.5%;
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+  }
+  .div-13 {
+    font-family: DM Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-14 {
+    border-radius: 10px;
+    border-color: rgba(243, 244, 245, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 33px;
+    flex-direction: column;
+    font-weight: 400;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      max-width: 100%;
+      margin-top: 30px;
+    }
+  }
+  .div-15 {
+    display: flex;
+    margin-top: 23px;
+    flex-direction: column;
+    padding: 0 32px;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-16 {
+    display: flex;
+    gap: 10px;
+  }
+  .div-17 {
+    color: #f0ecdf;
+    letter-spacing: 4.8px;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 16px/32px Font Awesome 5 Free, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-18 {
+    color: #0f2137;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 15px/200% Heebo, sans-serif;
+  }
+  .div-19 {
+    color: #0f2137;
+    margin-top: 22px;
+    font: 700 20px/30px DM Sans, sans-serif;
+  }
+  .div-20 {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    font-size: 16px;
+    color: #343d48;
+    line-height: 162.5%;
+  }
+  .img-3 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+  }
+  .div-21 {
+    font-family: DM Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+  .div-22 {
+    border-radius: 10px;
+    border-color: rgba(243, 244, 245, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 33px;
+    flex-direction: column;
+    font-weight: 400;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      max-width: 100%;
+      margin-top: 30px;
+    }
+  }
+  .div-23 {
+    display: flex;
+    margin-top: 23px;
+    flex-direction: column;
+    padding: 0 33px;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-24 {
+    display: flex;
+    gap: 10px;
+    line-height: 200%;
+  }
+  .div-25 {
+    color: #ffce1f;
+    letter-spacing: 4.8px;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 16px Font Awesome 5 Free, sans-serif;
+  }
+  .div-26 {
+    color: #0f2137;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 15px Heebo, sans-serif;
+  }
+  .div-27 {
+    color: #0f2137;
+    margin-top: 22px;
+    font: 700 20px/30px DM Sans, sans-serif;
+  }
+  .div-28 {
+    display: flex;
+    margin-top: 21px;
+    gap: 15px;
+    font-size: 16px;
+    color: #343d48;
+    line-height: 162.5%;
+  }
+  .img-4 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+  }
+  .div-29 {
+    font-family: DM Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  } */
